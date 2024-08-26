@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace, serif;
+}
+body {
+  background-color: rgba(128, 128, 128, 0.433);
+}
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 500px;
+  background: #ffffff;
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.404);
+  display: flex;
+  flex-direction: column;
+}
+#twitter-logo {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#twitter-logo i {
+  font-size: 30px;
+  color: rgb(53, 99, 236);
+  margin: 10px auto;
+  padding: 5px 5px;
+}
+#twitter-logo p {
+  font-size: 25px;
+  font-weight: 900;
+  margin: 5px auto;
+}
+
+#or {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 600;
+}
+button {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  max-width: 300px;
+  margin: 10px 0;
+  font-size: 15px;
+  border-radius: 20px;
+  padding: 10px 10px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  cursor: pointer;
+
+  &:active{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.82);
+  }
+}
+button i {
+  font-size: 20px;
+}
+input {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  max-width: 300px;
+  margin: 15px 0;
+  height: 40px;
+  border:1px solid rgba(0, 0, 0, 0.823);
+  border-radius: 3px;
+}
+#nextBtn {
+  background-color: black;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 17px;
+  border: none;
+
+  &:active{
+    background-color: rgba(0, 0, 0, 0.871);
+  }
+}
+#forgetBtn {
+  font-weight: 900;
+  font-size: 17px;
+
+  &:active{
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.82);
+  }
+}
+#new-account {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.646);
+  margin-top: 8px;
+  margin-left: 55px;
+}
+span {
+  font-size: 14px;
+  color: rgb(77, 201, 66);
+  cursor: pointer;
+}
