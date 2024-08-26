@@ -21,15 +21,14 @@ body {
   flex-direction: column;
 }
 #twitter-logo {
-  /* position: relative; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-#twitter-logo i {
-  font-size: 30px;
-  color: rgb(53, 99, 236);
+#twitter-logo img {
+  width: 45px;
+  height: 40px;
   margin: 10px auto;
   padding: 5px 5px;
 }
@@ -38,9 +37,7 @@ body {
   font-weight: 900;
   margin: 5px auto;
 }
-
 #or {
-  /* position: relative; */
   display: flex;
   justify-content: center;
   font-size: 15px;
@@ -110,4 +107,7 @@ span {
   font-size: 14px;
   color: rgb(77, 201, 66);
   cursor: pointer;
+}
+button img{
+  width:20px;
 }
